@@ -1,0 +1,63 @@
+#form_container {
+    padding-top: 7px;
+    display: inline block;
+    margin: 20vh 0;
+    width: 35vw;
+    height: 65vh;
+    background-color: rgb(18, 18, 62, 0.7);
+    border-radius: 20px;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form_elements {
+    margin: 1rem 1rem;
+    border-radius: 10px;
+    height: 3rem;
+}
+
+.form h3 {
+    margin-left: 2rem;
+    margin-top: 1rem;
+}
+
+#inp_name,
+#inp_email,
+#inp_msg {
+    width: 30vw;
+    padding-left: 2rem;
+}
+
+#inp_msg {
+    height: 15vh;
+}
+
+#send_btn {
+    width: 8rem;
+    align-items: center;
+    font-weight: 500;
+    font-size: 1.2rem;
+    margin-top: 0.8rem;
+    background-color: #0053fa;
+    color: #ffffff;
+    border: none;
+    padding: 0.5rem 2rem;
+    border-radius: 5px;
+}
+
+.zoom_in_form {
+    transition: all 0.3s ease-out;
+    transform: scale(1.05) translateY(-5px);
+}
+
+.zoom_out_form {
+    transition: all 0.3s ease-out;
+    transform: scale(1);
+}
+
+.hidden {
+    opacity: 0.5;
+}

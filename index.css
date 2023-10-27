@@ -1,0 +1,51 @@
+#firstSection {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0;
+    height: 100vh;
+}
+
+#firstSection>div {
+    width: 30%;
+}
+
+.leftSection {
+    font-size: 2.5rem;
+}
+
+.rightSection img {
+    width: 80%;
+}
+
+.purple {
+    color: rgb(18, 18, 62)
+}
+
+#element {
+    font-style: italic;
+    color: rgb(18, 18, 62);
+}
+
+#about {
+    background-color: #98D7DF;
+}
+
+#skill {
+    background-color: #BFE6EB;
+}
+
+#hobbies {
+    background-color: #98D7DF;
+}
+
+/* #contact {
+    background-color: #1C3D4B;
+} */
+
+.card {
+    width: 100%;
+    float: left;
+    height: 100vh;
+    position: relative;
+}
